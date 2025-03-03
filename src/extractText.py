@@ -18,6 +18,8 @@ def pdf_to_text(pdffile,outputfile):
         print(f"Text successsfully extracted:")
 
 if __name__ == '__main__':
-    pdffile = "D:\\practice_projects\\Aionic_test\\data\\sample_pdf.pdf"
-    outputfile = "D:\\practice_projects\\Aionic_test\\data\\output.txt"
+    ## Local Path of the files
+    pdffile = "D:\\Aionic_test\\data\\sample_pdf.pdf"
+    outputfile = "D:\\Aionic_test\\data\\output.txt"
     pdf_to_text(pdffile,outputfile)
+
