@@ -19,7 +19,7 @@ def pdf_to_text(pdffile,outputfile):
 
 if __name__ == '__main__':
     ## Local Path of the files
-    pdffile = "D:\\Aionic_test\\data\\sample_pdf.pdf"
-    outputfile = "D:\\Aionic_test\\data\\output.txt"
+    pdffile = "..\\data\\sample_pdf.pdf"
+    outputfile = "..\\data\\output.txt"
     pdf_to_text(pdffile,outputfile)
 
